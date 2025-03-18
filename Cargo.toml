@@ -13,7 +13,7 @@ license = "MIT"
 [dependencies]
 
 [dependencies.pyo3]
-version = "0.24.0"
+version = "0.13.2"
 features = ["extension-module"]
 
 [lib]
