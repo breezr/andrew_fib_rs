@@ -8,6 +8,6 @@ fn say_hello() {
 
 #[pymodule]
 fn andrew_fib_rs(_py: Python, m: &PyModule) -> PyResult<()> {
-    m.add_function(wrap_pyfunction!(say_hello));
+    m.add_wrapped(wrap_pyfunction!(say_hello));
     Ok(())
 }
