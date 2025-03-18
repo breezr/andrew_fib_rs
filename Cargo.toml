@@ -1,0 +1,21 @@
+[package]
+name = "andrew_fib_rs"
+version = "0.1.0"
+edition = "2024"
+authors = [""]
+description = ""
+homepage = ""
+readme = "README.md"
+keywords = ["educational"]
+categories = [""]
+license = "MIT"
+
+[dependencies]
+
+[dependencies.pyo3]
+version = "0.24.0"
+features = ["extension-module"]
+
+[lib]
+name = "andrew_fib_rs"
+crate-type = ["cdylib"]
